@@ -118,11 +118,5 @@
 <h3>Contribution Snake</h3>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0xRakkesh/0xRakkesh/main/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/0xRakkesh/0xRakkesh/main/github-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/0xRakkesh/0xRakkesh/main/github-snake.svg" />
-  </picture>
+  <img src="./github-snake.svg" alt="GitHub contribution snake" />
 </p>
-
-[github-snake.svg](https://github.com/0xRakkesh/0xRakkesh/blob/main/github-snake.svg)
