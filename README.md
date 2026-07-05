@@ -26,9 +26,6 @@
 <br>
 <br>
 
-<blockquote ">
-<b>"A lesson without pain is meaningless. That's because you can't gain something without sacrificing something else."</b><br>
-</blockquote>
 
 ---
 
