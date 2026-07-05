@@ -15,16 +15,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: 0xRakkesh
-          outputs: |
-            github-snake.svg
-            github-snake-dark.svg?palette=codeberg-dark
+      - name: Generate Codeberg dark snake
+        run: |
+          npx generate-snake-animation@3 \
+            --forgejo_user codeberg.org/0xRakkesh \
+            --output codeberg-snake-dark.svg?palette=codeberg-dark
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update snake"
-          file_pattern: |
-            github-snake.svg
-            github-snake-dark.svg
+          file_pattern: codeberg-snake-dark.svg

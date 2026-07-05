@@ -118,5 +118,5 @@
 <h3>Contribution Snake</h3>
 
 <p align="center">
-  <img src="./github-snake.svg" alt="GitHub contribution snake" />
+  <img src="./codeberg-snake-dark.svg" alt="Codeberg dark contribution snake" />
 </p>
