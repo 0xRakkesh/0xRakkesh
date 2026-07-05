@@ -39,10 +39,10 @@
 <h3>Currently Learning</h3>
 
 <p>
-• Backend Development & System Design <br>
-• Data Structures & Algorithms <br>
-• AI Agents & Automation Workflows <br>
-• Building Projects and Preparing for Software Engineering Roles
+ Backend Development & System Design <br>
+ Data Structures & Algorithms <br>
+ AI Agents & Automation Workflows <br>
+ Building Projects and Preparing for Software Engineering Roles
 </p>
 
 ---
@@ -51,25 +51,46 @@
   Tech Stack & Tools
 </h3>
 
+<table>
+<tr>
+<td valign="middle">
+
 <p>
   <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
   <img src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
   <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+</p>
+
+<p>
   <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
-  <br>
+</p>
+
+<p>
   <img src="https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express.js">
   <img src="https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
   <img src="https://img.shields.io/badge/Linux_Fedora-%23294172.svg?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
 </p>
 
+</td>
+
+<td valign="middle">
+
+<img
+  src="https://github-readme-stats.shion.dev/api/top-langs/?username=0xRakkesh&theme=github_dark_dimmed&hide_border=true&include_all_commits=true&count_private=true&layout=compact"
+  alt="Top Languages"
+/>
+
+</td>
+</tr>
+</table>
+
 ---
 
 <p>
   <img src="https://github-readme-stats.shion.dev/api?username=0xRakkesh&theme=github_dark_dimmed&hide_border=false&include_all_commits=true&count_private=true" alt="Rakesh Stats">
-  <br>
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=0xRakkesh&theme=github_dark_dimmed&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages">
+   <img src="https://streak-stats.demolab.com/?user=0xRakkesh&theme=github_dark_dimmed&hide_border=false" alt="Streak Stats" align="right">
 </p>
 
