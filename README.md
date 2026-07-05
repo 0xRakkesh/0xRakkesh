@@ -16,14 +16,13 @@
 
 <b>
   I'm currently pursuing a degree in Artificial Intelligence and spend most of my time learning backend development.
-</b><br><br>
+</b><br>
 <b>
   I enjoy building projects, experimenting with new technologies, and understanding how systems work behind the scenes.
-</b><br><br>
+</b><br>
 <b>
   Outside of coding, you'll probably find me watching anime, playing open-world games, or reading about technologies.
 </b>
-<br>
 <br>
 <br>
 
