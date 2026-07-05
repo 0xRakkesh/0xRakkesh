@@ -119,8 +119,10 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-    <img alt="github contribution grid snake animation" src="github-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0xRakkesh/0xRakkesh/main/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/0xRakkesh/0xRakkesh/main/github-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/0xRakkesh/0xRakkesh/main/github-snake.svg" />
   </picture>
 </p>
+
+[github-snake.svg](https://github.com/0xRakkesh/0xRakkesh/blob/main/github-snake.svg)
