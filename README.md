@@ -38,12 +38,26 @@
 
 <h3>Currently Learning</h3>
 
-<p>
- Backend Development & System Design <br>
- Data Structures & Algorithms <br>
- AI Agents & Automation Workflows <br>
- Building Projects and Preparing for Software Engineering Roles
-</p>
+<table>
+<tr>
+<td width="75%">
+<b>➊ [ Backend Development & System Design ]ㅤㅤ</b> <br>  
+<b>➋ [ Data Structures & Algorithms ]ㅤㅤ</b>  <br>
+<b>➌ [ AI Agents & Automation Workflows ]ㅤㅤ</b>  <br>
+<b>➍ [ Building Projects & Preparing for SWE Roles ]ㅤ</b> 
+
+</td>
+
+<td width="25%" align="center">
+
+<img
+  src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejcwYnU2OHhubXFiODZzMzllZmVnNHg0MTFhdnlmYWtqYmhmdDZxZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/zOvBKUUEERdNm/giphy.gif"
+  width="210"
+/>
+
+</td>
+</tr>
+</table>
 
 ---
 
