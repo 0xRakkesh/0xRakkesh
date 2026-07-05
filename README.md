@@ -24,7 +24,6 @@
   Outside of coding, you'll probably find me watching anime, playing open-world games, or reading about technologies.
 </b>
 <br>
-<br>
 
 
 ---
