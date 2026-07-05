@@ -119,9 +119,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0xRakkesh/0xRakkesh/output/github-contribution-grid-snake-dark.svg?palette=codeberg-dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/0xRakkesh/0xRakkesh/output/github-contribution-grid-snake.svg?palette=codeberg-dark" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/0xRakkesh/0xRakkesh/output/github-contribution-grid-snake.svg?palette=codeberg-dark" />
   </picture>
 </p>
 
@@ -131,10 +131,10 @@
 ```yaml
 - uses: Platane/snk@v3
   with:
-    github_user_name: ${{ github.repository_owner }}
+    github_user_name: 0xRakkesh
     outputs: |
-      dist/github-snake.svg
-      dist/github-snake-dark.svg?palette=codeberg-dark
+      dist/github-contribution-grid-snake.svg?palette=codeberg-dark
+      dist/github-contribution-grid-snake-dark.svg?palette=codeberg-dark
 ```
 
 </details>
