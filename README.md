@@ -119,22 +119,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0xRakkesh/0xRakkesh/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/0xRakkesh/0xRakkesh/output/github-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/0xRakkesh/0xRakkesh/output/github-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+    <img alt="github contribution grid snake animation" src="github-snake.svg" />
   </picture>
 </p>
-
-<details>
-<summary>GitHub Action snippet</summary>
-
-```yaml
-- uses: Platane/snk@v3
-  with:
-    github_user_name: 0xRakkesh
-    outputs: |
-      dist/github-snake.svg
-      dist/github-snake-dark.svg?palette=codeberg-dark
-```
-
-</details>
