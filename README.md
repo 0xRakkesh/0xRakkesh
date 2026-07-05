@@ -14,23 +14,20 @@
 
 <h3>About Me</h3>
 
-<h4>
+<b>
   I'm currently pursuing a degree in Artificial Intelligence and spend most of my time learning backend development.
-</h4>
-
-<h4>
+</b><br><br>
+<b>
   I enjoy building projects, experimenting with new technologies, and understanding how systems work behind the scenes.
-</h4>
-
-<h4>
+</b><br><br>
+<b>
   Outside of coding, you'll probably find me watching anime, playing open-world games, or reading about technologies.
-</h4>
-
+</b>
+<br>
+<br>
 <br>
 
-
-
-<blockquote>
+<blockquote ">
 <b>"A lesson without pain is meaningless. That's because you can't gain something without sacrificing something else."</b><br>
 </blockquote>
 
