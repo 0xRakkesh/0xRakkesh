@@ -68,8 +68,8 @@
 ---
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Rakesh-ada&theme=tokyonight&show_icons=true&hide_border=false&count_private=true" alt="Rakesh Stats">
+  <img src="https://github-readme-stats.shion.dev/api?username=0xRakkesh&theme=github_dark_dimmed&hide_border=false&include_all_commits=true&count_private=true" alt="Rakesh Stats">
   <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rakesh-ada&theme=tokyonight&show_icons=true&hide_border=false&layout=compact" alt="Top Languages">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=0xRakkesh&theme=github_dark_dimmed&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages">
 </p>
 
