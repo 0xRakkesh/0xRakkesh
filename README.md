@@ -97,7 +97,7 @@
 
 ---
 
-<table>
+<table align="center">
 <tr>
 <td>
 
@@ -111,12 +111,12 @@
 
 </td>
 </tr>
+
+<tr>
+<td colspan="2" align="center">
+
+<img src="./codeberg-snake-dark.svg" alt="Codeberg dark contribution snake" />
+
+</td>
+</tr>
 </table>
-
----
-
-<h3>Contribution Snake</h3>
-
-<p align="center">
-  <img src="./codeberg-snake-dark.svg" alt="Codeberg dark contribution snake" />
-</p>
