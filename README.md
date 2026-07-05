@@ -89,8 +89,18 @@
 
 ---
 
-<p>
-  <img src="https://github-readme-stats.shion.dev/api?username=0xRakkesh&theme=github_dark_dimmed&hide_border=false&include_all_commits=true&count_private=true" alt="Rakesh Stats">
-   <img src="https://streak-stats.demolab.com/?user=0xRakkesh&theme=github_dark_dimmed&hide_border=false" alt="Streak Stats" align="right">
-</p>
+<table>
+<tr>
+<td>
 
+<img src="https://github-readme-stats.shion.dev/api?username=0xRakkesh&theme=github_dark_dimmed&hide_border=true&include_all_commits=true&count_private=true" alt="Rakesh Stats">
+
+</td>
+
+<td>
+
+<img src="https://streak-stats.demolab.com/?user=0xRakkesh&theme=github_dark_dimmed&hide_border=true" alt="Streak Stats">
+
+</td>
+</tr>
+</table>
