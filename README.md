@@ -69,17 +69,17 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/HTML5-FF5F1F?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-FF00FF?style=for-the-badge&logo=css&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/Hono-FF3131?style=for-the-badge&logo=hono&logoColor=yellow" alt="Hono">
+  <img src="https://img.shields.io/badge/Docker-0818A8?style=for-the-badge&logo=docker&logoColor=white" alt="docker">
   <img src="https://img.shields.io/badge/Node.js-7CFC00?style=for-the-badge&logo=node.js&logoColor=black" alt="Node.js">
   <img src="https://img.shields.io/badge/Express.js-FFC000?style=for-the-badge&logo=express&logoColor=black" alt="Express.js">
 </p>
 
 <p>
   <img src="https://img.shields.io/badge/MongoDB-228B22?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
-  <img src="https://img.shields.io/badge/Postgres-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="Postgres">
-  <img src="https://img.shields.io/badge/Fedora-%23294172.svg?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora">
-  <img src="https://img.shields.io/badge/Git-CC5500?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/Redis-FF2400?style=for-the-badge&logo=redis&logoColor=white" alt="Redis">
+  <img src="https://img.shields.io/badge/Cloudflare-FF5533.svg?style=for-the-badge&logo=cloudflare&logoColor=white" alt="cloudflare">
+  <img src="https://img.shields.io/badge/AWS-FFFDD0?style=for-the-badge&logo=icloud&logoColor=black" alt="AWS">
 </p>
 
 </td>
