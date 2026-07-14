@@ -76,7 +76,7 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/MongoDB-228B22?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
   <img src="https://img.shields.io/badge/Redis-FF2400?style=for-the-badge&logo=redis&logoColor=white" alt="Redis">
   <img src="https://img.shields.io/badge/Cloudflare-FF5533.svg?style=for-the-badge&logo=cloudflare&logoColor=white" alt="cloudflare">
   <img src="https://img.shields.io/badge/AWS-FFFDD0?style=for-the-badge&logo=icloud&logoColor=black" alt="AWS">
