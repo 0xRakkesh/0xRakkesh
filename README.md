@@ -62,9 +62,9 @@
 <td valign="middle">
 
 <p>
-  <img src="https://img.shields.io/badge/C-DC143C?style=for-the-badge&logo=C%2B%2B&logoColor=white" alt="C">
   <img src="https://img.shields.io/badge/C++-EE4B2B?style=for-the-badge&logo=C%2B%2B&logoColor=white" alt="C++">
   <img src="https://img.shields.io/badge/JavaScript-FFFF00?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/Python-0047AB?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
 </p>
 
