@@ -25,20 +25,18 @@ jobs:
           NOW=$(date +%s)
           DAYS_SINCE=$(( (NOW - LAST_UPDATE) / 86400 ))
           
-          # Roll a number between 0 and 99 to create a "weighted" probability
           CHANCE=$(( RANDOM % 100 ))
           
           if [ $CHANCE -lt 30 ]; then
-            COMMITS=0                        # 30% chance for 0 commits
+            COMMITS=0
           elif [ $CHANCE -lt 70 ]; then
-            COMMITS=$(( (RANDOM % 3) + 1 ))  # 40% chance for 1 to 3 commits (Normal)
+            COMMITS=$(( (RANDOM % 3) + 1 ))
           elif [ $CHANCE -lt 95 ]; then
-            COMMITS=$(( (RANDOM % 4) + 4 ))  # 25% chance for 4 to 7 commits (Busy)
+            COMMITS=$(( (RANDOM % 4) + 4 ))
           else
-            COMMITS=$(( (RANDOM % 3) + 8 ))  # 5% chance for 8 to 10 commits (Rare high level)
+            COMMITS=$(( (RANDOM % 3) + 8 ))
           fi
           
-          # Safety net: If it's been 5 days and it rolled a 0, force a commit
           if [ "$DAYS_SINCE" -ge 5 ] && [ "$COMMITS" -eq 0 ]; then
             echo "5 days passed! Forcing at least 1 commit today."
             COMMITS=1
@@ -47,19 +45,18 @@ jobs:
           echo "Target commits today: $COMMITS"
           echo "run_snake=$COMMITS" >> $GITHUB_ENV
           
-          # If we are doing commits today, set up the bot and create empty commits
           if [ "$COMMITS" -gt 0 ]; then
-            git config --global user.name 'github-actions[bot]'
-            git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            # Tell Git that YOU are making these commits
+            git config --global user.name "${{ github.actor }}"
+            git config --global user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
             
-            # Subtract 1 because the final snake file update counts as our final commit
             DUMMY_COMMITS=$(( COMMITS - 1 ))
             
             if [ "$DUMMY_COMMITS" -gt 0 ]; then
               for i in $(seq 1 $DUMMY_COMMITS); do
-                git commit --allow-empty -m "chore: activity bump"
+                git commit --allow-empty -m "chore: activity bump $i"
               done
-              echo "Created $DUMMY_COMMITS empty commits."
+              echo "Created $DUMMY_COMMITS empty commits under your name."
             fi
           fi
 
@@ -69,7 +66,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           npx generate-snake-animation@3 \
-            --github_user 0xRakkesh \
+            --github_user ${{ github.actor }} \
             --output codeberg-snake-dark.svg?palette=codeberg-dark
 
       - uses: stefanzweifel/git-auto-commit-action@v5
@@ -77,3 +74,7 @@ jobs:
         with:
           commit_message: "chore: update snake"
           file_pattern: codeberg-snake-dark.svg
+          # Ensure the final auto-commit is also credited to you
+          commit_user_name: ${{ github.actor }}
+          commit_user_email: ${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com
+          commit_author: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
