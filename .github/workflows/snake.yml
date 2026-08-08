@@ -9,72 +9,28 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout output branch
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0 
+          ref: output
+          fetch-depth: 0
 
-      - name: Calculate random commits (0-10) and generate empty ones
-        id: decision
-        run: |
-          LAST_UPDATE=$(git log -1 --format="%at" -- codeberg-snake-dark.svg 2>/dev/null)
-          if [ -z "$LAST_UPDATE" ]; then LAST_UPDATE=0; fi
-          NOW=$(date +%s)
-          DAYS_SINCE=$(( (NOW - LAST_UPDATE) / 86400 ))
-          
-          CHANCE=$(( RANDOM % 100 ))
-          
-          if [ $CHANCE -lt 30 ]; then
-            COMMITS=0
-          elif [ $CHANCE -lt 70 ]; then
-            COMMITS=$(( (RANDOM % 3) + 1 ))
-          elif [ $CHANCE -lt 95 ]; then
-            COMMITS=$(( (RANDOM % 4) + 4 ))
-          else
-            COMMITS=$(( (RANDOM % 3) + 8 ))
-          fi
-          
-          if [ "$DAYS_SINCE" -ge 5 ] && [ "$COMMITS" -eq 0 ]; then
-            echo "5 days passed! Forcing at least 1 commit today."
-            COMMITS=1
-          fi
-          
-          echo "Target commits today: $COMMITS"
-          echo "run_snake=$COMMITS" >> $GITHUB_ENV
-          
-          if [ "$COMMITS" -gt 0 ]; then
-            # Tell Git that YOU are making these commits
-            git config --global user.name "${{ github.actor }}"
-            git config --global user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
-            
-            DUMMY_COMMITS=$(( COMMITS - 1 ))
-            
-            if [ "$DUMMY_COMMITS" -gt 0 ]; then
-              for i in $(seq 1 $DUMMY_COMMITS); do
-                git commit --allow-empty -m "chore: activity bump $i"
-              done
-              echo "Created $DUMMY_COMMITS empty commits under your name."
-            fi
-          fi
-
-      - name: Generate Codeberg dark snake
-        if: env.run_snake != '0' || github.event_name == 'workflow_dispatch'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          npx generate-snake-animation@3 \
-            --github_user ${{ github.actor }} \
-            --output codeberg-snake-dark.svg?palette=codeberg-dark
-
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        if: env.run_snake != '0' || github.event_name == 'workflow_dispatch'
+      - name: Generate snake
+        uses: Platane/snk/svg-only@v3
         with:
-          commit_message: "chore: update snake"
-          file_pattern: codeberg-snake-dark.svg
-          # Ensure the final auto-commit is also credited to you
-          commit_user_name: ${{ github.actor }}
-          commit_user_email: ${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com
-          commit_author: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            codeberg-snake-dark.svg?palette=github-dark
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add codeberg-snake-dark.svg
+          git commit -m "chore: update snake" || echo "No changes"
+          git push
