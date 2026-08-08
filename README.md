@@ -115,7 +115,7 @@
 <tr>
 <td colspan="2" align="center">
 
-<img src="./codeberg-snake-dark.svg" alt="Codeberg dark contribution snake" />
+<img src="./github-snake.svg" alt="Codeberg dark contribution snake" />
 
 </td>
 </tr>
