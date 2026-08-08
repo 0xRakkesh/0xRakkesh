@@ -23,7 +23,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            codeberg-snake.svg?palette=codeberg&color_snake=%2358a6ff&color_dots=%2330363d,%231a2f4d,%2324578a,%23307bc0,%2358a6ff
+            codeberg-snake.svg?color_snake=%230D47A1&color_dots=%23E3F2FD,%2390CAF9,%2364B5F6,%232196F3,%230D47A1
 
       - name: Commit and push generated files
         run: |
