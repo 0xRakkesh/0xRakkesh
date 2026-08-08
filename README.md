@@ -1,0 +1,122 @@
+<h3 align="center">
+  Hey, I'm Rakesh 👋
+</h3>
+
+<h3 align="center">
+  AIML Student / Backend Enthusiast / AI Explorer
+</h3>
+
+<p align="center">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTdsMGs1dDFtbzZydmhyd2FnbnE3Z2VxbDI2ejZqd2h6bTlldnM2eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nyzOkZCdZAC5y/giphy.gif" width="350" alt="Coding Animation">
+</p>
+
+---
+
+<h3>About Me</h3>
+
+<b>
+  I'm currently pursuing a degree in Artificial Intelligence and spend most of my time learning backend development.
+</b><br>
+<b>
+  I enjoy building projects, experimenting with new technologies, and understanding how systems work behind the scenes.
+</b><br>
+<b>
+  Outside of coding, you'll probably find me watching anime, playing open-world games, or reading about technologies.
+</b>
+<br>
+
+
+---
+
+<h3>Currently Learning</h3>
+
+<table>
+<tr>
+<td width="75%">
+<b>➊ [ Backend Development & System Design ]ㅤㅤ</b> <br>  
+<b>➋ [ Data Structures & Algorithms ]ㅤㅤ</b>  <br>
+<b>➌ [ AI Agents & Automation Workflows ]ㅤㅤ</b>  <br>
+<b>➍ [ Building Projects & Preparing for SWE Roles ]ㅤ</b> 
+
+</td>
+
+<td width="25%" align="center">
+
+<img
+  src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejcwYnU2OHhubXFiODZzMzllZmVnNHg0MTFhdnlmYWtqYmhmdDZxZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/zOvBKUUEERdNm/giphy.gif"
+  width="210"
+/>
+
+</td>
+</tr>
+</table>
+
+---
+
+<h3>
+  Tech Stack & Tools
+</h3>
+
+<table>
+<tr>
+<td valign="middle">
+
+<p>
+  <img src="https://img.shields.io/badge/C++-EE4B2B?style=for-the-badge&logo=C%2B%2B&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/JavaScript-FFFF00?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Python-0047AB?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Hono-FF3131?style=for-the-badge&logo=hono&logoColor=yellow" alt="Hono">
+  <img src="https://img.shields.io/badge/Docker-0818A8?style=for-the-badge&logo=docker&logoColor=white" alt="docker">
+  <img src="https://img.shields.io/badge/Node.js-7CFC00?style=for-the-badge&logo=node.js&logoColor=black" alt="Node.js">
+  <img src="https://img.shields.io/badge/Express.js-FFC000?style=for-the-badge&logo=express&logoColor=black" alt="Express.js">
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Redis-FF2400?style=for-the-badge&logo=redis&logoColor=white" alt="Redis">
+  <img src="https://img.shields.io/badge/Cloudflare-FF5533.svg?style=for-the-badge&logo=cloudflare&logoColor=white" alt="cloudflare">
+  <img src="https://img.shields.io/badge/AWS-FFFDD0?style=for-the-badge&logo=icloud&logoColor=black" alt="AWS">
+</p>
+
+</td>
+
+<td valign="middle">
+
+<img
+  src="https://github-readme-stats.shion.dev/api/top-langs/?username=0xRakkesh&theme=github_dark_dimmed&hide_border=true&include_all_commits=true&count_private=true&layout=compact"
+  alt="Top Languages"
+/>
+
+</td>
+</tr>
+</table>
+
+---
+
+<table align="center">
+<tr>
+<td>
+
+<img src="https://github-readme-stats.shion.dev/api?username=0xRakkesh&theme=github_dark_dimmed&hide_border=true&include_all_commits=true&count_private=true" alt="Rakesh Stats">
+
+</td>
+
+<td>
+
+<img src="https://streak-stats.demolab.com/?user=0xRakkesh&theme=github_dark_dimmed&hide_border=true" alt="Streak Stats">
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+
+<img src="https://raw.githubusercontent.com/0xRakkesh/0xRakkesh/output/codeberg-snake.svg" alt="Codeberg dark contribution snake" />
+
+</td>
+</tr>
+</table>
