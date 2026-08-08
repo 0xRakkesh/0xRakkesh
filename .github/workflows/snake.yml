@@ -13,18 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout output branch
         uses: actions/checkout@v4
         with:
+          ref: output
           fetch-depth: 0
-
-      - name: Ensure output branch exists
-        run: |
-          if git ls-remote --exit-code --heads origin output >/dev/null 2>&1; then
-            git checkout output
-          else
-            git checkout -b output
-          fi
 
       - name: Generate snake
         uses: Platane/snk/svg-only@v3
@@ -34,8 +27,7 @@ jobs:
             dist/codeberg-snake-dark.svg?palette=github-dark
 
       - name: Copy generated file
-        run: |
-          cp dist/codeberg-snake-dark.svg ./codeberg-snake-dark.svg
+        run: cp dist/codeberg-snake-dark.svg codeberg-snake-dark.svg
 
       - name: Commit and push
         run: |
@@ -44,4 +36,4 @@ jobs:
 
           git add codeberg-snake-dark.svg
           git commit -m "chore: update snake" || echo "No changes"
-          git push --set-upstream origin output
+          git push origin output
