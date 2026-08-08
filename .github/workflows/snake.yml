@@ -18,19 +18,18 @@ jobs:
         with:
           ref: output
 
-      - name: Generate snake SVGs
+      - name: Generate codeberg snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            github-snake.svg
-            github-snake-dark.svg?palette=github-dark
+            codeberg-snake.svg?palette=codeberg
 
       - name: Commit and push generated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add github-snake.svg github-snake-dark.svg
+          git add codeberg-snake.svg
           git commit -m "chore: update snake" || echo "No changes to commit"
           git push origin output
