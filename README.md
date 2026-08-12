@@ -43,7 +43,7 @@
 
 <td width="35%" align="center">
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/0xRakkesh?theme=dark&font=Karma&ext=heatmap)](https://leetcode.com/YOUR_LEETCODE_USERNAME)
+[![LeetCode Stats](https://leetcard.jacoblin.cool/rakeshAdak?theme=dark&font=Karma&border=0)](https://leetcode.com/rakeshAdak)
 
 </td>
 </tr>
