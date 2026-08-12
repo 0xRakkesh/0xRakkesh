@@ -1,9 +1,9 @@
 <h3 align="center">
-  Hey, I'm Rakesh 👋
+  Hey, I'm <b>Rakesh</b> 👋
 </h3>
 
 <h3 align="center">
-  Backend Developer
+  
 </h3>
 
 <p align="center">
