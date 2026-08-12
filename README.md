@@ -3,7 +3,7 @@
 </h3>
 
 <h3 align="center">
-  AIML Student / Backend Enthusiast / AI Explorer
+  Backend Developer
 </h3>
 
 <p align="center">
@@ -32,20 +32,27 @@
 
 <table>
 <tr>
-<td width="65%">
+  <td>
+    <b>[ Backend Development & System Design ]</b>
+  </td>
 
-<b>➊ [ Backend Development & System Design ]</b> <br>  
-<b>➋ [ Data Structures & Algorithms ]</b>  <br>
-<b>➌ [ AI Agents & Automation Workflows ]</b>  <br>
-<b>➍ [ Building Projects & Preparing for SWE Roles ]</b>
-
-</td>
-
-<td width="35%" align="center">
-
-[![LeetCode Stats](https://leetcard.jacoblin.cool/rakeshAdak?theme=dark&font=Karma&border=0)](https://leetcode.com/rakeshAdak)
-
-</td>
+  <td rowspan="4" width="40%" align="center" valign="middle">
+    <a href="https://leetcode.com/rakeshAdak">
+      <img
+        src="https://leetcard.jacoblin.cool/rakeshAdak?theme=nord&font=Poppins"
+        alt="LeetCode Stats"
+      />
+    </a>
+  </td>
+</tr>
+<tr>
+<td><b>[ Data Structures & Algorithms ]</b></td>
+</tr>
+<tr>
+<td><b>[ AI Agents & Automation Workflows ]</b></td>
+</tr>
+<tr>
+<td><b>[ Building Projects & Preparing for SWE Roles ]</b></td>
 </tr>
 </table>
 
