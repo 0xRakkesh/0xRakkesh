@@ -32,24 +32,23 @@
 
 <table>
 <tr>
-<td width="75%">
-<b>➊ [ Backend Development & System Design ]ㅤㅤ</b> <br>  
-<b>➋ [ Data Structures & Algorithms ]ㅤㅤ</b>  <br>
-<b>➌ [ AI Agents & Automation Workflows ]ㅤㅤ</b>  <br>
-<b>➍ [ Building Projects & Preparing for SWE Roles ]ㅤ</b> 
+<td width="65%">
+
+<b>➊ [ Backend Development & System Design ]</b> <br>  
+<b>➋ [ Data Structures & Algorithms ]</b>  <br>
+<b>➌ [ AI Agents & Automation Workflows ]</b>  <br>
+<b>➍ [ Building Projects & Preparing for SWE Roles ]</b>
 
 </td>
 
-<td width="25%" align="center">
+<td width="35%" align="center">
 
-<img
-  src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejcwYnU2OHhubXFiODZzMzllZmVnNHg0MTFhdnlmYWtqYmhmdDZxZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/zOvBKUUEERdNm/giphy.gif"
-  width="210"
-/>
+[![LeetCode Stats](https://leetcard.jacoblin.cool/0xRakkesh?theme=dark&font=Karma&ext=heatmap)](https://leetcode.com/YOUR_LEETCODE_USERNAME)
 
 </td>
 </tr>
 </table>
+
 
 ---
 
